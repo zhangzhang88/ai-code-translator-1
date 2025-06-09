@@ -1,29 +1,54 @@
 # AI Code Translator
 
-Use AI to translate code from one language to another.
+An AI-powered code translation tool that helps you convert code between different programming languages using Deepseek AI.
 
-![AI Code Translator](./public/screenshot.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzhangzhang88%2Fai-code-translator-1)
 
-## Running Locally
+## Features
 
-**1. Clone Repo**
+- Translate code between 40+ programming languages
+- Real-time syntax highlighting
+- Streaming response
+- Modern UI with dark theme
+- Mobile responsive
+
+## Getting Started
+
+1. Visit the deployed application
+2. Enter your Deepseek API key
+3. Select input and output programming languages
+4. Enter or paste your code
+5. Click "Translate" to convert your code
+
+## Local Development
 
 ```bash
-git clone https://github.com/mckaywrigley/ai-code-translator.git
-```
+# Install dependencies
+npm install
 
-**2. Install Dependencies**
-
-```bash
-npm i
-```
-
-**3. Run App**
-
-```bash
+# Run the development server
 npm run dev
 ```
 
-## Contact
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/mckaywrigley).
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file:
+
+```bash
+DEEPSEEK_API_KEY=your_api_key_here # Optional, can be provided via UI
+```
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Deepseek AI API
+- CodeMirror
+
+## License
+
+MIT License
